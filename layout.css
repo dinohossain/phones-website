@@ -1,0 +1,343 @@
+/*layout for T*/
+body {
+    background-color: #999;
+    width: 100%;
+    float: left;
+    display: inline;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    float: left;
+    display: inline;
+}
+
+nav {
+    width: 100%;
+    background: #000;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+/*contorls the nave*/
+.main_ul {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*center nav buttons*/
+.main_li {
+    width: 180px;
+    height: 30px;
+    margin: 0;
+    text-align: center;
+    background: #000;
+    list-style-type: none;
+    float: left;
+    display: inline;
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*center nav buttons*/
+.main_a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/*nav writing*/
+.main_a:hover {
+    color: #999;
+    text-decoration: none;
+    display: block;
+}
+
+/*nav writing*/
+#act {
+    color: #999;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    display: block;
+    width: 100px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.banner1 {
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    display: inline;
+    float: left;
+}
+
+#prod {
+    width: 1878px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.iprod_box {
+    width: 466px;
+    border: 1px solid #D8D8D8;
+    float: left;
+    display: block;
+    height: 100%;
+}
+
+/*product box*/
+.iprod_box:hover {
+    height: 100%;
+    width: 466px;
+    border: 1px solid #D8D8D8;
+    border-bottom: 5px solid #F2F506;
+    float: left;
+    display: block;
+}
+
+/*product box hover */
+.iprod_pic {
+    width: 466px;
+    height: 100%;
+    float: left;
+    display: inline;
+    //margin: 2%;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+}
+
+/*product picture*/
+.iprod_price {
+    width: 200px;
+    float: left;
+    display: inline;
+    margin: 2%;
+    text-align: center;
+}
+
+/*Product price and information*/
+.box1 {
+    width: 95%;
+    border: 1px solid #D8D8D8;
+    float: left;
+    display: block;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 30px;
+}
+
+/*product box*/
+main {
+    font-family: Arial;
+    font-size: 40px;
+    width: 100%;
+    background-color: #FFF;
+    float: left;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*APPLE PAGE*/
+.iphone {
+    width: 10px;
+    height: 100px;
+    float: left;
+    display: inline;
+    margin: 2%;
+    text-align: left-side;
+}
+
+.demo {
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.demo {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.demo th {
+    border: 1px solid silver;
+    padding: 5px;
+    background: silver;
+}
+
+.demo td {
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+/*OFFERS PAGE*/
+.offers {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.iprod_picoffers {
+    width: 466px;
+    height: 100%;
+    float: left;
+    display: inline;
+    //margin: 2%;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    background-color: #000;
+}
+
+.text {
+    width: 1000px;
+    float: left;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    //border: 1px solid;
+}
+
+.text1 {
+    width: 900px;
+    float: left;
+    display: inline;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: -7%;
+    margin-bottom: 5%;
+    text-align: center;
+    //border: 1px solid;
+    font-size: 24px;
+}    
+
+
+/*CONTACT PAGE*/
+.feedback {
+    width: 50%;
+    border: 1px solid;
+    height: 900px;
+}
+
+fieldset {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.short_explanation {
+    font-size: 18px;
+    font-family: Arial,sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.container {
+    font-size: 32px;
+    float: left;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #C2D1F0;
+    box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+}
+
+.cont {
+    width: 35%;
+    float: left;
+    //border: 1px solid;
+}
+
+#info {
+    float: left;
+    margin-left: 20px;
+    width: 500px;
+    font-size: 31px;
+    border: 1px solid #C2D1F0;
+    box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+    margin-top: 10px;
+}
+
+#localinfo {
+    float: left;
+    width: 600px;
+    font-size: 31px;
+    margin-left: 20px;
+    border: 1px solid #C2D1F0;
+    box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+
+#mapinfo {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #C2D1F0;
+    box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+    display: inline;
+    float: left;
+	margin-left: 50px;
+}
+
+#twitterinfo {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #C2D1F0;
+    box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
+.formbox {
+    margin-top: 30px;
+    border: 1px solid #C2D1F0;
+    width: 95%;
+    height: 1300px;
+    margin-left: 50px;
+	box-shadow: 10px 10px 15px #C9C9C9;
+    -moz-box-shadow: 0 0 15px #C9C9C9;
+    -webkit-box-shadow: 0 0 15px #C9C9C9;
+    box-shadow: 0 0 15px #C9C9C9;
+}    
+
+
+footer {
+    width: 100%;
+    background: #a6a6a6;
+    float: left;
+    display: inline;
+    text-align: center;
+}
